@@ -29,10 +29,17 @@ After cloning the repository, simply invoke the script by typing :
 
 ## Command Line Options
 
-Any configuration options may also be passed in as command line options.
+Most configuration options may also be passed in as command line options:
+
+* `-l *city*,*CC*`: location
+* `-u *metric|imperial*` units
+* `-s *true|false*` Unicode symbols
+* `-f *n*`: forecast for day n
+* `-d *true|false*`: daylight (sunrise and sunset)
+
+For example:
 
 	./ansiweather -l Moscow,RU -u metric -s true -f 5 -d true
-
 
 
 ## Configuration
